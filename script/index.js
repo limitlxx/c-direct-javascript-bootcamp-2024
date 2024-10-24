@@ -17,6 +17,8 @@
      * 
      * 
      * ASSIGNMENT 1 START
+     * 
+     * SOLUTION
      */
 
     const pi = 3.14;
@@ -36,6 +38,8 @@
      * ASSIGNMENT 1 END
      */
 
+     /****
+     * 
 
     function GetArea() {
         let length = 2;
@@ -61,7 +65,7 @@
         document.getElementById("changeme").innerHTML = age_compared;
         
     }
-
+**/
 
 
     
