@@ -19,10 +19,10 @@
 ```javascript
 
     const pi = 3.14;
-    let r = 3;    
+    let r;    
 
     function GetAreaofCircle() {  
-        // pi = 7.89;  
+        pi = 7.89;  
         let formula = 2*pi*(r^2 )       
         document.getElementById("changeme").innerHTML = formula;
     }
