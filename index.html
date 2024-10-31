@@ -4,18 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
-    <h1><span id="changeme" >Text here</span></h1>
+    <div class="container">
+         
+            <input type="number" name="params1" id="params1">           
+            <input type="number" name="params2" id="params2">            
+            <button class="btn" type="button" 
+                onclick="Addition()">Submit</button>
+            <br>
+            <input type="text"  placeholder="solution" name="solution" id="solution" disabled>
+        
 
-    <button onclick="GetAreaofCircle()" >Click Me</button>
+    </div>
+
+    <!-- <h1><span id="changeme" >Text here</span></h1>
+
+    <button onclick="GetAreaofCircle()" >Click Me</button> -->
 
 
     <!-- Javascript file -->
     <script src="script/index.js"></script>
 
-    <script src="script/variablesAssignment.js"></script>
+    <!-- <script src="script/variablesAssignment.js"></script> -->
     
 </body>
 </html>
