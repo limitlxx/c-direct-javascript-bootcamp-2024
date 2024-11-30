@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Comparison Assignment</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
-    <h1><span id="changeme" >Text here</span></h1>
-
-    <button onclick="GetAreaofCircle()" >Click Me</button>
-
-
+    <div class="container">
+        <input type="number" name="params1" id="params1" placeholder="Enter first number">           
+        <input type="number" name="params2" id="params2" placeholder="Enter second number">            
+        <button class="btn" type="button" onclick="Addition()">Submit</button>
+        <br>
+        <input type="text" placeholder="Solution" name="solution" id="solution" disabled>
+        <h1><span id="changeme">Text here</span></h1>
+    </div>
+    
     <!-- Javascript file -->
     <script src="script/index.js"></script>
-
-    <script src="script/variablesAssignment.js"></script>
-    
 </body>
 </html>

@@ -29,7 +29,6 @@
         r = 3;
         let formula = 2*pi*(r^2 )       
         document.getElementById("changeme").innerHTML = formula;
-        console.log(formula);        
     }
 
 
